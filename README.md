@@ -1,6 +1,8 @@
 # little-java-training
 Basics of java, test and annotations
 
+## Eve Barrios
+
 ## Consignas
 1. Crear un nuevo paquete llamado "paquete"
 2. Crear dentro del paquete una clase java llamada "Persona"
