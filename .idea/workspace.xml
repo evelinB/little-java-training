@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45f5380-ad72-45e9-b86f-8a1002f92c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Paquete/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Paquete/PersonaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Paquete/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paquete/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Paquete/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paquete/PersonaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/PerroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/PerroTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,46 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Paquete/Persona.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/example/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/example/PerroTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="45" column="9" selection-start-line="44" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Paquete/PersonaTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/paquete/Persona.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="798">
+              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/paquete/PersonaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,10 +70,13 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Paquete/Persona.java" />
         <option value="$PROJECT_DIR$/src/test/java/Paquete/PersonaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/example/PerroTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/paquete/Persona.java" />
+        <option value="$PROJECT_DIR$/src/test/java/paquete/PersonaTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1140" />
@@ -106,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,7 +126,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Paquete" type="462c0819:PsiDirectoryNode" />
+              <item name="paquete" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-project" type="b2602c69:ProjectViewProjectNode" />
@@ -183,13 +163,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Paquete" type="462c0819:PsiDirectoryNode" />
+              <item name="paquete" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonaTest">
+  <component name="RunManager" selected="JUnit.PersonaTest.debeAsegurarQueLaPersonaHabla">
     <configuration name="PerroTest.debeAsegurarQuePerroEnojadoMuestraLosDientes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-project.test" />
       <extension name="coverage">
@@ -241,12 +222,12 @@
       <module name="test-project.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Paquete.*" />
+          <option name="PATTERN" value="paquete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Paquete" />
-      <option name="MAIN_CLASS_NAME" value="Paquete.PersonaTest" />
+      <option name="PACKAGE_NAME" value="paquete" />
+      <option name="MAIN_CLASS_NAME" value="paquete.PersonaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,12 +237,12 @@
       <module name="test-project.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Paquete.*" />
+          <option name="PATTERN" value="paquete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Paquete" />
-      <option name="MAIN_CLASS_NAME" value="Paquete.PersonaTest" />
+      <option name="PACKAGE_NAME" value="paquete" />
+      <option name="MAIN_CLASS_NAME" value="paquete.PersonaTest" />
       <option name="METHOD_NAME" value="debeAsegurarQueLaPersonaHabla" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -272,12 +253,12 @@
       <module name="test-project.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Paquete.*" />
+          <option name="PATTERN" value="paquete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Paquete" />
-      <option name="MAIN_CLASS_NAME" value="Paquete.PersonaTest" />
+      <option name="PACKAGE_NAME" value="paquete" />
+      <option name="MAIN_CLASS_NAME" value="paquete.PersonaTest" />
       <option name="METHOD_NAME" value="debeVerificarElGenero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -288,12 +269,12 @@
       <module name="test-project.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Paquete.*" />
+          <option name="PATTERN" value="paquete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Paquete" />
-      <option name="MAIN_CLASS_NAME" value="Paquete.PersonaTest" />
+      <option name="PACKAGE_NAME" value="paquete" />
+      <option name="MAIN_CLASS_NAME" value="paquete.PersonaTest" />
       <option name="METHOD_NAME" value="debeVerificarLaEdad" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -302,8 +283,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonaTest" />
         <item itemvalue="JUnit.PersonaTest.debeAsegurarQueLaPersonaHabla" />
+        <item itemvalue="JUnit.PersonaTest" />
         <item itemvalue="JUnit.PerroTest.debeAsegurarQuePerroEnojadoMuestraLosDientes" />
         <item itemvalue="JUnit.PersonaTest.debeVerificarLaEdad" />
         <item itemvalue="JUnit.PersonaTest.debeVerificarElGenero" />
@@ -324,21 +305,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonaTest_debeVerificarElDni - 2019.06.30 at 18h 36m 00s.xml">
-      <configuration name="PersonaTest.debeVerificarElDni" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PerroTest_debeAsegurarQueSePerroTieneCuatroPatas - 2019.06.30 at 18h 36m 17s.xml">
-      <configuration name="PerroTest.debeAsegurarQueSePerroTieneCuatroPatas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonaTest_verificarLaEdad - 2019.06.30 at 18h 43m 35s.xml">
-      <configuration name="PersonaTest.verificarLaEdad" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonaTest_debeVerificarElGenero - 2019.06.30 at 18h 45m 48s.xml">
-      <configuration name="PersonaTest.debeVerificarElGenero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonaTest_debeVerificarLaEdad - 2019.06.30 at 18h 46m 04s.xml">
-      <configuration name="PersonaTest.debeVerificarLaEdad" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PerroTest_debeAsegurarQuePerroEnojadoMuestraLosDientes - 2019.06.30 at 18h 48m 45s.xml">
       <configuration name="PerroTest.debeAsegurarQuePerroEnojadoMuestraLosDientes" configurationId="JUnit" />
     </history-entry>
@@ -354,16 +320,30 @@
     <history-entry file="PersonaTest - 2019.06.30 at 18h 57m 13s.xml">
       <configuration name="PersonaTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonaTest_debeAsegurarQueLaPersonaHabla - 2019.07.02 at 12h 32m 55s.xml">
+      <configuration name="PersonaTest.debeAsegurarQueLaPersonaHabla" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonaTest_debeAsegurarQueLaPersonaHabla - 2019.07.02 at 12h 34m 40s.xml">
+      <configuration name="PersonaTest.debeAsegurarQueLaPersonaHabla" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonaTest_debeAsegurarQueLaPersonaHabla - 2019.07.02 at 12h 36m 19s.xml">
+      <configuration name="PersonaTest.debeAsegurarQueLaPersonaHabla" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonaTest_debeAsegurarQueLaPersonaHabla - 2019.07.02 at 12h 36m 36s.xml">
+      <configuration name="PersonaTest.debeAsegurarQueLaPersonaHabla" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonaTest_debeAsegurarQueLaPersonaHabla - 2019.07.02 at 12h 54m 12s.xml">
+      <configuration name="PersonaTest.debeAsegurarQueLaPersonaHabla" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1915403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19473264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32984293" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
@@ -375,6 +355,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32984293" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32984293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -385,7 +366,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="84">
@@ -394,18 +374,12 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/Gato.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -416,32 +390,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Paquete/Persona.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/example/PerroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="45" column="9" selection-start-line="44" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
             <element signature="e#626#627#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Paquete/PersonaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/Perro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/paquete/PersonaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/paquete/Persona.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

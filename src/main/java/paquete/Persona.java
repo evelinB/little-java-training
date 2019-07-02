@@ -1,20 +1,22 @@
-package Paquete;
+package paquete;
 
 import lombok.AllArgsConstructor;
 import tipos.Genero;
 import lombok.Getter;
 import lombok.Setter;
 
-@AllArgsConstructor //no se si esto va acá!!!
-
+@AllArgsConstructor
 public class Persona {
     //defino atributos
     private String nombre;
     private int dni;
     //getter y setter con annotations
-    @Getter @Setter private byte edad;
-    @Getter @Setter private Genero genero;
-
+    @Getter
+    @Setter
+    private byte edad;
+    @Getter
+    @Setter
+    private Genero genero;
     //constructor con nombre y dni
     public Persona(String nombre, int dni){
         this.nombre = nombre;
@@ -35,7 +37,7 @@ public class Persona {
 
     //definir metodo hablar
     public String hablar() {
-        return "Hola me llamo Evelin";
+        return "Hola me llamo " + nombre;
     }
 
 }
